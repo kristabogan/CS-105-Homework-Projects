@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=pascalRow
+comment0.text=\r\n\ Prints\ out\ Pascal\ Triangle\ until\ the\ Nth\ number\ row\ &\ saves\ it\ as\ a\ string.\r\n\r\n\ @author\ Krista\ Bogan\r\n\ @version\ 5/2/22\r\n
+comment1.params=n
+comment1.target=void\ main(int)
+comment1.text=\r\n\ Main\ method\ that\ takes\ in\ the\ number\ of\ desired\ rows\r\n\ and\ prints\ out\ the\ Pascal's\ triangle\ up\ to\ the\ Nth\ row.\ Saves\r\n\ the\ number\ row\ as\ string\ s.\r\n\ \r\n\ @param\ \ int\ n\ \ \ \ \ \ \ \ number\ of\ rows\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ prints\ out\ the\ row\ as\ string,\ "s"\r\n
+comment2.params=i\ j
+comment2.target=int\ value(int,\ int)
+comment2.text=\r\n\ Gets\ individual\ values\ at\ Pascal\ Triangle\ row.\ Values\ are\ -1\ to\r\n\ ensure\ array\ does\ not\ go\ out\ of\ bounds.\r\n\r\n\ @param\ \ int\ i\ \ number\ of\ rows\ -1\r\n\ @param\ \ int\ j\ \ position\ of\ value\ -1\r\n\ @return\ \ \ \ int\ value\ of\ i,j\r\n
+numComments=3
