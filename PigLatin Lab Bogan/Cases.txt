@@ -1,0 +1,20 @@
+boolean isVowel(char c): returns true if c is a vowel
+  1. isVowel(a, b, c) -> (true, false, false)
+  2. isVowel(o, e, i) -> (true, true, true)
+  3. isVowel(q, x, i) -> (false, false, true)
+
+
+boolean isConsonant(char c): returns true if c is a consonant
+  1. isConsonant(a, b, c) -> (false, true, true)
+  2. isConsonant(o, e, i) -> (false, false, false)
+  3. isConsonant(q, x, i) -> (true, true, false)
+
+String wordToPigLatin(String s): assumes input s is a single word and returns it translated to Pig Latin
+  1. wordToPigLatin("hello") -> ("ellohay")
+  2. wordToPigLatin("hello my name is") -> ("ello my name ishay")
+  3. wordToPigLatin("how are you")-> ("ow are youhay")
+
+String lineToPigLatin(String s): goes word by word through s translating each word into Pig Latin and returning the translated version
+  1. lineToPigLatin("hello world") -> ("ellohay orldway")
+  2. lineToPigLatin("hello my name is") -> ("ellohay ymay amenay isyay")
+  3. lineToPigLatin("how are you")-> ("owhay areyay ouyay")
