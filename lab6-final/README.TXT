@@ -1,12 +1,1 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Assignment Details: Use BlueJ to write a Java program whose main() takes an int via the command line arguments and prints out the corresponding number of rows of Pascal's triangle: https://en.wikipedia.org/wiki/Pascal's_triangle. This should use a method pascalRow() which takes an int for the row number and returns a String of the corresponding row. Each entry can be computed via the binomial coefficient, and you can import a method from this from org.apache.commons.numbers.combinatorics.BinomialCoefficient
